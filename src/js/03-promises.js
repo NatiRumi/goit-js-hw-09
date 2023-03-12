@@ -32,7 +32,6 @@ function onFormSubmit(event) {
     createPromise(position, delay).then(x => Notiflix.Notify.success(x)).catch(y => Notiflix.Notify.failure(y));
     position += 1;
     delay += step;
-    
   }
 };
 
